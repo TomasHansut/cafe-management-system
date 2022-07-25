@@ -7,9 +7,12 @@ export interface Menu {
     role: string
 }
 
+// Menu items in dashboard left panel
 const MENU_ITEMS = [
     {state: 'dashboard', name: 'Dashboard', icon: 'dashboard', role: ''},
-    {state: 'category', name: 'Manage Category', icon: 'category', role: 'admin'}
+    {state: 'category', name: 'Manage Categories', icon: 'category', role: 'admin'},
+    {state: 'product', name: 'Manage Products', icon: 'inventory_2', role: 'admin'},
+    {state: 'order', name: 'Manage Orders', icon: 'list_alt', role: ''}
 ]
 
 @Injectable()
